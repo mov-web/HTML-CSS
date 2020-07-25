@@ -38,7 +38,7 @@
     <!-- メイン部分 -->
     <section class="section_wrapper_about">
       <!-- about -->
-      <h2 class="section_title_about">about</h2>
+      <h2 id="about" class="section_title_about">about</h2>
       <section class="about-info_section">
         <div class="about-info_text-wrapper">
           <h3 class="about-info_title">
@@ -98,7 +98,7 @@
       </section>
     </section>
     <!-- member -->
-    <section class="section_wrapper_member">
+    <section id="member" class="section_wrapper_member">
       <h2 class="section_title_member">member</h2>
       <ul class="member_list">
         <!-- 相澤 -->
@@ -248,7 +248,7 @@
       <button class="work_all-btn">all works</button>
     </section>
     <!-- contact -->
-    <section class="section_wrapper_contact">
+    <section id="contact" class="section_wrapper_contact">
       <h2 class="section_title_contact">contact</h2>
       <section class="contact-join_container">
         <p class="contact-join_illust-wrapper">

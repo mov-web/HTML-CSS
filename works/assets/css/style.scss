@@ -1,21 +1,10 @@
-@import "setting.scss";
-.header{
-  &_container{
-    width: 100%;
-    height: 780px;
-    background-image: url(../img/top.png);
+@import "../../../assets/css/setting.scss";
+.work-card{
+  &_pic-img{
+      width: 100%;
   }
-  &_logo_wrapper{
-    position: absolute;
-    margin: auto;
-  }
-}
-.member{
-  &_img{
+  &_pic-wrapper{
     width: 100%;
-    &-wrapper{
-      width: 188px;
-      height: auto;
-    }
+    height: auto;
   }
 }
