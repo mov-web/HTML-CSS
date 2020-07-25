@@ -1,3 +1,4 @@
+<!-- 全ページ共通部分 -->
 <link href="https://fonts.googleapis.com/css?family=Amiko&display=swap" rel="stylesheet">
 <script>
     (function(d) {
