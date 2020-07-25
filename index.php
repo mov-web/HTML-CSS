@@ -19,6 +19,7 @@
     <?php include('nav.php'); ?>
   </header>
   <main>
+    <!-- トップの部分 -->
     <div class="header_container">
       <h1 class="header_text_main">
         creative <br>
@@ -34,6 +35,7 @@
         engineering
       </p>
     </div>
+    <!-- メイン部分 -->
     <section class="section_wrapper_about">
       <!-- about -->
       <h2 class="section_title_about">about</h2>
@@ -114,10 +116,10 @@
             <li class="member_skill-option">illust</li>
           </ul>
           <ul class="member_sns-list">
-            <li class="member_sns-link">
+            <li class="member_sns-link_twitter">
               <a href="https://twitter.com/aizawa213"></a>
             </li>
-            <li class="member_sns-link">
+            <li class="member_sns-link_portfolio">
               <a href="http://aizawa-design.work/"></a>
             </li>
           </ul>
@@ -136,11 +138,11 @@
             <li class="member_skill-option">3DCG</li>
           </ul>
           <ul class="member_sns-list">
-            <li class="member_sns-link">
-              <a href="https://twitter.com/aizawa213"></a>
+            <li class="member_sns-link_vivivit">
+              <a href="https://www.vivivit.com/profile/public/U27tHHamjA"></a>
             </li>
-            <li class="member_sns-link">
-              <a href="http://aizawa-design.work/"></a>
+            <li class="member_sns-link_twitter">
+              <a href="https://twitter.com/Cherry__BIossom"></a>
             </li>
           </ul>
         </li>
@@ -159,18 +161,11 @@
             <li class="member_skill-option">App</li>
           </ul>
           <ul class="member_sns-list">
-            <li class="member_sns-link">
-              <a href="https://twitter.com/aizawa213"></a>
-            </li>
-            <li class="member_sns-link">
-              <a href="http://aizawa-design.work/"></a>
-            </li>
           </ul>
         </li>
         <!-- 小林 -->
         <li class="member_card">
           <caption class="member_comment">
-            ヤモリとネコを飼ってます
           </caption>
           <p class="member_img-wrapper">
             <img class="member_img" src="assets/img/kobayashi.png" alt="">
@@ -181,41 +176,28 @@
             <li class="member_skill-option">model</li>
           </ul>
           <ul class="member_sns-list">
-            <li class="member_sns-link">
-              <a href="https://twitter.com/aizawa213"></a>
-            </li>
-            <li class="member_sns-link">
-              <a href="http://aizawa-design.work/"></a>
-            </li>
           </ul>
         </li>
         <!-- 玉手 -->
         <li class="member_card">
           <caption class="member_comment">
-            ヤモリとネコを飼ってます
+            今年は海に行く
           </caption>
           <p class="member_img-wrapper">
             <img class="member_img" src="assets/img/tamate.png" alt="">
           </p>
           <h3 class="mamber_name">Yui Tamate</h3>
           <ul class="member_skill-list">
-            <li class="member_skill-option">UX/UI</li>
-            <li class="member_skill-option">web</li>
             <li class="member_skill-option">graphic</li>
+            <li class="member_skill-option">logo</li>
           </ul>
           <ul class="member_sns-list">
-            <li class="member_sns-link">
-              <a href="https://twitter.com/aizawa213"></a>
-            </li>
-            <li class="member_sns-link">
-              <a href="http://aizawa-design.work/"></a>
-            </li>
           </ul>
         </li>
         <!-- 港 -->
         <li class="member_card">
           <caption class="member_comment">
-            ヤモリとネコを飼ってます
+            面白い人間です。
           </caption>
           <p class="member_img-wrapper">
             <img class="member_img" src="assets/img/minato.png" alt="">
@@ -227,12 +209,6 @@
             <li class="member_skill-option">graphic</li>
           </ul>
           <ul class="member_sns-list">
-            <li class="member_sns-link">
-              <a href="https://twitter.com/aizawa213"></a>
-            </li>
-            <li class="member_sns-link">
-              <a href="http://aizawa-design.work/"></a>
-            </li>
           </ul>
         </li>
       </ul>
