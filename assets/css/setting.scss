@@ -16,16 +16,16 @@ p{
     font-size: $text-size;
     font-family: $font-jp_standard;
     line-height: 1.7em;
-    color: $black;
+    color: $colortext;
     &::selection {
-        background-color: $primary-yellow;
+        background-color: $primary-color;
         color: $primary-navy;
     }   
 }
 h1,h2,h3,h4,h5,h6{
     font-family: $font-jp_standard;
     &::selection {
-        background-color: $primary-yellow;
+        background-color: $primary-color;
         color: $primary-navy;
     } 
 }
@@ -44,20 +44,20 @@ ul{
 li{
     list-style: none;
     &::selection {
-        background-color: $primary-yellow;
+        background-color: $primary-color;
         color: $primary-navy;
     } 
 }
 a{
     &:link { 
-        color: $black; 
+        color: $colortext; 
         text-decoration: none;
     }
-    &:visited { color: $black; }
+    &:visited { color: $colortext; }
     &:hover { 
-        color: $black;
+        color: $colortext;
     }
-    &:active { color: $black; }
+    &:active { color: $colortext; }
 }
 header{
     width: 100%;
@@ -67,11 +67,11 @@ header{
     z-index: 1000;
     position: fixed;
     background-color: $background-color;
-    border-right: $primary-yellow 4px solid;
+    border-right: $primary-color 4px solid;
     top: 0;
     left: 0;
     width: $grobalnav-width - 20px;
-    // border-right: solid 4px $primary-yellow;
+    // border-right: solid 4px $primary-color;
     height: 100vh;
     transition: all 200ms 0s ease;
     padding: {
@@ -83,7 +83,7 @@ header{
         box-sizing: border-box;
         height: $grobalnav-height;
         border: none;
-        border-bottom: $primary-yellow 4px solid;
+        border-bottom: $primary-color 4px solid;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -127,10 +127,10 @@ header{
         a{
             font-size: $text-size;
             font-family: $font-jp_decoration;
-            color: $black;
+            color: $colortext;
             font-weight: bold;
             &:hover{
-                background-color: $primary-yellow;
+                background-color: $primary-color;
             }
             
         }
@@ -171,14 +171,14 @@ header{
             li{
                 font-size: $text-size;
                 font-family: $font-en_standard;
-                color: $black;
+                color: $colortext;
                 font-weight: normal;
                 margin-bottom: 6px;
             }
         }
         a{
             &:hover{
-                background-color: $primary-yellow;
+                background-color: $primary-color;
             }
         }
     }
@@ -197,7 +197,7 @@ header{
             margin-left: 36px;
         }
         &:hover{
-            background-color: $primary-yellow;
+            background-color: $primary-color;
             color: $primary-navy;
         }
     }
@@ -205,8 +205,8 @@ header{
 // メインコンテンツ
 main{
   margin-right: 0;
-  margin-left: 140px;
-  width: calc(100% - 140px);
+  margin-left: 156px;
+  width: calc(100% - 156px);
   @media (max-width: $breakpoints_m){
     width: 100%;
     left: 0;

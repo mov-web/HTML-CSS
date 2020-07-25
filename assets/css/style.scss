@@ -11,6 +11,16 @@
   }
 }
 .member{
+  &_list{
+    display: flex;
+    flex-wrap: wrap;;
+  }
+  &_card{
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 32px 44px;
+  }
   &_img{
     width: 100%;
     &-wrapper{

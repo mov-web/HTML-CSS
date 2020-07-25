@@ -11,12 +11,12 @@
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="assets/img/favicons/favicon.ico" rel="icon" type="image/x-icon">
   <link href="assets/img/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-  <?php include('setting.php'); ?>
+  <?php include('../setting.php'); ?>
 	<title>mov</title>
 </head>
 <body>
   <header>
-    <?php include('nav.php'); ?>
+    <?php include('../nav.php'); ?>
   </header>
   <main>
     <h1>Works</h1>
@@ -29,7 +29,7 @@
       <p  class="work-card_pic-wrapper">
         <img class="work-card_pic-img" src="assets/img/nagare.png" alt="">
       </p>
-      <button class="work-card_btn" onclick="location.href='/nagare'">more detail</button>
+      <button class="work-card_btn" onclick="location.href='./nagare'">more detail</button>
     </section>
     <section class="work-card">
       <h1 class="work-card_title">tsumugu.mov</h1>
@@ -40,7 +40,7 @@
       <p  class="work-card_pic-wrapper">
         <img class="work-card_pic-img" src="assets/img/tsumugu.png" alt="">
       </p>
-      <button class="work-card_btn" onclick="location.href='/tsumugu'">more detail</button>
+      <button class="work-card_btn" onclick="location.href='./tsumugu'">more detail</button>
     </section>
     <section class="work-card">
       <h1 class="work-card_title">20th Aniversaly film</h1>
@@ -52,7 +52,7 @@
       <p  class="work-card_pic-wrapper">
         <img class="work-card_pic-img" src="assets/img/20thanv.png" alt="">
       </p>
-      <button class="work-card_btn" onclick="location.href='/20thanv'">more detail</button>
+      <button class="work-card_btn" onclick="location.href='./20thanv'">more detail</button>
     </section>
     <section class="work-card">
       <h1 class="work-card_title">the Pranks</h1>
@@ -64,7 +64,7 @@
       <p  class="work-card_pic-wrapper">
         <img class="work-card_pic-img" src="assets/img/thepranks.png" alt="">
       </p>
-      <button class="work-card_btn" onclick="location.href='/thepranks'">more detail</button>
+      <button class="work-card_btn" onclick="location.href='./thepranks'">more detail</button>
     </section>
   </main>
   <footer>

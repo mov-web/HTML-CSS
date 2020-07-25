@@ -11,12 +11,12 @@
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="assets/img/favicons/favicon.ico" rel="icon" type="image/x-icon">
   <link href="assets/img/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-  <?php include('setting.php'); ?>
+  <?php include('../../setting.php'); ?>
 	<title>mov</title>
 </head>
 <body>
   <header>
-    <?php include('nav.php'); ?>
+    <?php include('../../nav.php'); ?>
   </header>
   <main>
     <h1>Contact</h1>

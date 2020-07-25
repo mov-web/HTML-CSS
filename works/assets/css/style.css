@@ -378,8 +378,8 @@ header {
 
 main {
   margin-right: 0;
-  margin-left: 156px;
-  width: calc(100% - 156x);
+  margin-left: 140px;
+  width: calc(100% - 140px);
 }
 
 @media (max-width: 894px) {
@@ -389,4 +389,13 @@ main {
     padding: 0;
   }
 }
-/*# sourceMappingURL=setting.css.map */
+
+.work-card_pic-img {
+  width: 100%;
+}
+
+.work-card_pic-wrapper {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
