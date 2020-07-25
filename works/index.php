@@ -50,7 +50,7 @@
       </ul>
       <p class="work-card_explain">宮城大学20周年記念レセプションのオープニングムービーを制作しました。</p>
       <p  class="work-card_pic-wrapper">
-        <img class="work-card_pic-img" src="assets/img/20tnanv.png" alt="">
+        <img class="work-card_pic-img" src="assets/img/20thanv.png" alt="">
       </p>
       <button class="work-card_btn" onclick="location.href='/20thanv'">more detail</button>
     </section>
