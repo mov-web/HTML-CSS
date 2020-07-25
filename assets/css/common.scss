@@ -1,0 +1,52 @@
+// ブレイクポイント
+$breakpoints_l: 1024px;
+$breakpoints_m: 894px;
+$breakpoints_s: 480px;
+// 色
+$background-color: #fff;
+$white: #fff;
+$bg-gray: #f4f4f4;
+$primary-yellow: #ECBE56;
+$primary-yellow_background: rgba(236, 191, 86, 0.699);
+$primary-yellow_hover: rgb(184, 144, 53);
+$primary-navy: #2f2f4a;
+$black: #333;
+$text-gray: rgb(103, 103, 103);
+// フォントサイズ 
+$grobalnav-width: 160px;
+$grobalnav-height: 60px;
+$hero-size: 72px;
+$display2-size: 44px;
+$display1-size: 36px;
+$title-size: 28px;
+$heading-size: 24px;
+$subheading-size: 20px;
+$text-size: 16px;
+$caption-size: 14px;
+// フォント
+$font-en_standard: 'Amiko', sans-serif;
+$font-en_decoration: 'Amiko', serif;
+$font-jp_standard: dnp-shuei-gothic-gin-std, sans-serif;
+$font-jp_decoration: dnp-shuei-gothic-gin-std, sans-serif;
+$margin-maincontents: 160px;
+// メディアクエリ
+@media (max-width: $breakpoints_m){
+  $margin-maincontents: 120px;
+}
+@media (max-width: $breakpoints_s){
+  $margin-maincontents: 80px;
+}
+// マージン
+$margin-subcontents: 80px;
+$margin-maintitle: 40px;
+// フォントサイズ 
+@media (max-width: $breakpoints_m){
+    $hero-size: 28px;
+    $display2-size: 28px;
+    $display1-size: 24px;
+    $title-size: 24px;
+    $heading-size: 24px;
+    $subheading-size: 20px;
+    $text-size: 16px;
+    $caption-size: 14px;
+}
